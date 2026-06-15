@@ -60,7 +60,7 @@ export default function SobrePage() {
             <span className="text-gradient-blue">constrói algo real</span>
           </h1>
           <p className="text-slate-400 text-xl leading-relaxed">
-            A IronFrame nasceu da convicção de que pequenos negócios merecem acesso à tecnologia de
+            A IronFrame nasceu da certeza de que todos precisam de acesso à tecnologia de
             qualidade — com processo real, suporte de verdade e sem o custo de uma grande agência. Uma
             empresa para Web <em>e</em> para Redes.
           </p>
@@ -169,6 +169,7 @@ export default function SobrePage() {
             </div>
           </div>
 
+          {/* Métricas — comentadas para uso futuro quando tivermos os números reais
           <div className="grid grid-cols-2 gap-4">
             {[
               { value: '30+', label: 'Projetos entregues' },
@@ -182,9 +183,15 @@ export default function SobrePage() {
               </div>
             ))}
           </div>
+          */}
+          <div className="flex items-center justify-center">
+            <p className="text-3xl md:text-4xl font-extrabold text-gradient-blue font-display text-center leading-snug">
+              Tecnologia séria para negócios sérios.
+            </p>
+          </div>
         </div>
 
-        {/* Founder story */}
+        {/* Depoimento do fundador — comentado para uso futuro
         <div className="bg-[#0d1a2e] border border-white/5 rounded-3xl p-8 md:p-12 mb-20">
           <div className="max-w-3xl">
             <Badge color="blue" className="mb-6">
@@ -213,6 +220,7 @@ export default function SobrePage() {
             </div>
           </div>
         </div>
+        */}
 
         {/* Values */}
         <div className="mb-20">
